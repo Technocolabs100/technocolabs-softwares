@@ -1,26 +1,19 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Certificate Verification</title>
-    <link rel="stylesheet" href="certificate.css">
-
-    <!-- Place favicon.ico in the root directory -->
-    <link rel="shortcut icon" type="image/x-icon" href="asset/img/logo/fevicon-2.png">
+  <meta charset="utf-8">
+  <title>Redirecting…</title>
+  <meta http-equiv="refresh" content="0; url=/verify">
+  <link rel="canonical" href="/verify">
+  <script>
+    // keep query & hash if any
+    const q = location.search || "";
+    const h = location.hash || "";
+    location.replace("/verify" + q + h);
+  </script>
+  <style>body{font:16px/1.4 system-ui,Segoe UI,Roboto,Arial,sans-serif;padding:2rem}</style>
 </head>
 <body>
-    <div class="container">
-        <h1>Technocolabs Softwares Certificate Verification</h1>
-        <p>This Certificate is Successfully Verified for the Completion of Internship at Technocolabs Softwares.</p>
-        <!-- <form>
-            <input type="text" id="certificateId" name="certificateId" placeholder="Enter Certificate ID" required>
-            <button type="button" onclick="displayMessage()">Verify</button>
-        </form> -->
-        <div id="result">
-            <!-- Here you can display a default message -->
-        </div>
-    </div>
-    <script src="certificate.js"></script>
+  Redirecting to <a href="/verify">/verify</a>…
 </body>
 </html>
